@@ -1,0 +1,110 @@
+[
+  {
+    "type": "restaurant",
+    "name": "The Grange",
+    "location": "West Side",
+    "kind": ["Gastropub", "Vegan-friendly"],
+    "recs": ["Quiche", "mimosas"],
+    "slug": "Brunch for vegans and the people who tolerate them.",
+    "desc": "It can be stuck up and bougie, but it's worth it. Or with it BECAUSE of the moral snob factor. The various mimosas are all solid choices, likewise the rotating vegetarian quiches. There's live music a lot of nights, if questionable folk-adjacent stuff is your, uh, jam.",
+    "img": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=052d0d3015f525635deba810a58da4f1&auto=format&fit=crop&w=668&q=80",
+    "featured": true,
+    "links": ["http://www.providencegrange.com/", "facebook"]
+  },
+  {
+    "type": "restaurant",
+    "name": "Julian's",
+    "location": "West Side",
+    "kind": ["Gastropub", "Vegan-friendly"],
+    "recs": ["Vegan tasting board", "pork belly bun"],
+    "slug": "Hops and hispters and huevos.",
+    "desc": "Killer taplist, and the vegan tasting board is a great way to soak it up. If you can snag a spot outside, it's a gorgeous brunch spot. I like it as a solo dining spot; there's usually some good people-watching on Broadway, but it's just low-key enough to enjoy a book with a brewksi or two alone.",
+    "img": "https://images.unsplash.com/photo-1507412306066-2977c0e91a68?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aba7f52648017e9500343100cea8baee&auto=format&fit=crop&w=2600&q=80"
+  },
+  {
+    "type": "restaurant",
+    "name": "North",
+    "location": "Downcity",
+    "kind": ["Hipster"],
+    "recs": ["TINY. HAM. BISCUITS."],
+    "slug": "Biscuits. Tiny biscuits. Of ham.",
+    "desc": "I…don't even know? It's as good as it is hard to describe. Get the biscuits. It's right downtown (or downcity or whatever we're insecurely refering our three blocks of urban center as). That makes it a killer spot—along with the attached Magdalene Room—to pre-game for shows at AS220 or the Strand.",
+    "img": "https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9ff8655a257a1570a467770fc0f75bb9&auto=format&fit=crop&w=2550&q=80"
+  },
+  {
+    "type": "restaurant",
+    "name": "Durk's BBQ",
+    "location": "Thayer Street",
+    "kind": ["Barbecue"],
+    "recs": ["Chicken leg", "slaw"],
+    "slug": "Worth it just for the meat sweats.",
+    "desc": "Texas-style hot smoky meats. It's hard to go wrong with anything, but the chicken and slaw are just decadent enough to not leave you praying for death.",
+    "img": "https://images.unsplash.com/photo-1496074620649-6b1b02e5c1c8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2e9d11899437353c07715bd11ff7588c&auto=format&fit=crop&w=2514&q=80"
+  },
+  {
+    "type": "restaurant",
+    "name": "The Salted Slate",
+    "location": "East Side",
+    "kind": ["Bougie"],
+    "recs": ["Bag of doughnuts"],
+    "desc": "I…don't even know? It's as good as it is hard to describe. Get the biscuits.",
+    "img": "https://images.unsplash.com/photo-1502809301561-bfa71788b275?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=588643559864aad2e2f48819bd7082d8&auto=format&fit=crop&w=2552&q=80"
+  },
+  {
+    "type": "restaurant",
+    "name": "Cook & Brown",
+    "location": "East Side",
+    "kind": ["Bougie"],
+    "recs": ["Varies"],
+    "desc": "Locally-focused menus",
+    "img": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=2534&q=80"
+  },
+  {
+    "type": "restaurant",
+    "name": "Rebelle",
+    "location": "East Side",
+    "kind": ["Bagels"],
+    "recs": ["The Smashing Pumpkin", "giant cups of nitro"],
+    "desc": "A bright, airy little spot on Camp Street, it's open early during the week (6:30! Bless them) and it's a joy to camp out for a bit with nitro and a bagel sammie. It can be packed, and they'll often sell out on weekends, so it'd behoove you to head in a little early. Keep an eye on their Instagram—they do a weekly special bagel (cheddar & beer or za'atar, recently), and $10 dozens if they've got lingering stock at the end of the day.",
+    "img": "https://images.unsplash.com/photo-1514460154823-73e3f57f72d2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=40e15e448464124e08792a0809c1f4bb&auto=format&fit=crop&w=1500&q=80"
+  },
+  {
+    "type": "bar",
+    "name": "The Avery",
+    "location": "West Side",
+    "kind": ["Lounge"],
+    "recs": ["Dark & stormy", "Lunch (the beer)"],
+    "slug": "Low light and loud noises.",
+    "desc": "Dark. Loud. Everything is gilded and vaguely Aztec-y and I have no idea why—but the cocktails are good. They don't serve food, though. It's better as a postprandial spot.",
+    "img": "https://images.unsplash.com/photo-1514828980084-9462f7d03afc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0c96c755b095f534a6d8a0bbc4efa752&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "type": "bar",
+    "name": "The Eddy",
+    "location": "Downcity",
+    "kind": ["Lounge"],
+    "recs": ["Vieux carré", "deviled eggs"],
+    "slug": "Cocktails and spiked cholesterol.",
+    "desc": "It's a tiny, claustrophobic corner of downtown, but the rear booths are perfect for a bunch. The egg theme rotates. One time they were dusted with Doritos because I guess that's a thing we're doing now? It was good, though, I'm not gonna lie. They do a crudité platter too if you're not feeling quite as decadent or intend to live past 45.",
+    "img": "https://images.unsplash.com/photo-1511359869250-81413958da33?ixlib=rb-0.3.5&s=a208e44c393874969085700b9b72d929&auto=format&fit=crop&w=1650&q=80"
+  },
+  {
+    "type": "bar",
+    "name": "The East End",
+    "location": "Fox Point",
+    "kind": ["Bar"],
+    "recs": ["'69 El Camino"],
+    "slug": "'Why is there sheet music in the bathroom?'",
+    "desc": "It's an Old West fever dream of a whisky bar, like if 'daugerreotype' were an entire aesthetic mode—in contrast to the botanical riot of plants on their (delightful, truly) patio. They've got slick rotating taps, bonkers cocktials, and the kitchen's excellent. I'm a sucker for charcuterie, and they've got a pretty good selection of spicy meats and snobby cheeses.",
+    "img": "https://images.unsplash.com/photo-1502819126416-d387f86d47a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=09f8419d4dfe16155bb399f0e7ea2069&auto=format&fit=crop&w=2689&q=80"
+  },
+  {
+    "type": "bar",
+    "name": "LongLive Beerworks",
+    "location": "West Side",
+    "kind": ["Brewery"],
+    "recs": ["All-Seeing Eye", "Candy Ghosts"],
+    "desc": "Beer",
+    "img": "https://images.unsplash.com/photo-1502819126416-d387f86d47a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=09f8419d4dfe16155bb399f0e7ea2069&auto=format&fit=crop&w=2689&q=80"
+  }
+]

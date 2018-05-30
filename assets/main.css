@@ -1,0 +1,60 @@
+//Transitions
+.page-enter-active {
+  transition: opacity 0.25s ease-out;
+}
+
+.page-leave-active {
+  transition: opacity 0.25s ease-in 0.3s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.appearing-enter,
+.appearing-leave-to {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.appearing-enter-active,
+.appearing-leave-active {
+  transition: all 0.5s;
+}
+
+.hero-slide-enter,
+.hero-slide-leave-to {
+  opacity: 0;
+  transform: translateY(10px)
+}
+
+.hero-slide-enter-active {
+  transition: all 0.5s ease-in;
+}
+
+.hero-slide-leave-active {
+  transition: all 0.25s ease-out;
+}
+
+.slide-up-enter,
+.slide-up-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: all 0.75s ease-out;
+}
+
+.card-slide-enter,
+.card-slide-leave-to {
+  opacity: 0;
+  transform: translateY($spaceLarge*-3 + 10px);
+}
+
+.card-slide-enter-active,
+.card-slide-leave-active {
+  transition: all 0.5s ease-out;
+}
