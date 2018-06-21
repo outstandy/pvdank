@@ -1,5 +1,5 @@
 <template>
-  <div class="grid wrapper">
+  <div class="wrapper container">
     <h2 class="title">
       Home!
     </h2>

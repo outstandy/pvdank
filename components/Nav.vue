@@ -1,50 +1,30 @@
 <template>
   <nav id="nav" :class="['nav', {'active' : (page === 'places-place') }]">
     <div class="wrapper grid">
-      <div id="indicator" class="nav__indicator"></div>
       <ul class="nav-list">
-        <li
-          v-for="(link, key, index) in links"
-          class="nav-list__item"
-          active-class="active-link"
-          v-bind:key="key"
-          v-on:mouseover="message($refs.link[index])"
-          >
-          <nuxt-link
-            exact
-            :ref="link"
-            v-bind:to="link">
-              {{ link }}
-          </nuxt-link>
-        </li>
-        <!-- <nuxt-link exact active-class="active-link" to="/lists">
-          <li ref="navItem" class="nav-list__item" v-on:mouseover="checkLeft">Lists</li>
-        </nuxt-link>
-        <nuxt-link exact active-class="active-link" to="/about">
-          <li ref="navItem" class="nav-list__item" v-on:mouseover="checkLeft">About</li>
-        </nuxt-link>
-        <nuxt-link exact active-class="active-link" to="/lists">
-          <li ref="navItem" class="nav-list__item" v-on:mouseover="checkLeft">Something</li>
-        </nuxt-link> -->
+        <NavItem destinationUrl="/" destinationName="Home" class="home"/>
+        <NavItem destinationUrl="/lists" destinationName="Lists" />
+        <NavItem destinationUrl="/about" destinationName="About" />
+        <NavItem destinationUrl="/some" destinationName="Some" />       
       </ul>
+      <div id="indicator" class="nav__indicator"></div>
     </div>
   </nav>
 </template>
 
 <script>
 import { mapState } from 'vuex';
+import NavItem from '~/components/NavItem';
 
 export default {
   name: "Nav",
+  components: {
+    NavItem,
+  },
   computed: mapState(['page']),
   data() {
     return {
       links: ['', '/lists', '/about', '/other']
-    }
-  },
-  methods: {
-    maessage(text) {
-      console.log(text)
     }
   },
   transition: {
@@ -64,39 +44,47 @@ export default {
     width: 100%
     z-index: 100
 
-    &.active
-      .nav__indicator
-        background-color: white
-
-      li,
-      a
-        color: white
-
     &__indicator
         height: 1px
         background-color: $coolBody
         position: absolute
         width: calc(25% - #{$space})
         bottom: 0
-        left: $space
+        left: $spaceXLarge
+        transition: transform 0.3s ease-in-out
+    
+    .nav-list
+      grid-column: span 12
+      display: flex
+      justify-content: space-around
+      list-style: none
+      width: 100%
+      position: relative
 
-  .active-link
-    position: relative
+      &__item
+        display: inline-block
+        text-align: center
+        width: 100%
+        
+        a
+          color: $darkGray
+          width: 100%
 
-  .nav-list
-    grid-column: span 12
-    display: flex
-    justify-content: space-around
-    list-style: none
-    width: 100%
-    position: relative
+          &:hover,
+          &.active-link
+            color: $coolBody
 
-    &__item
-      display: inline-block
+    &.active
+      .nav__indicator
+        background-color: white
 
       a
-        color: $darkGray
+        color: white
+        opacity: 0.9
 
-      &:hover
-        color: $coolBody
+        &:hover,
+        &.active-link
+          color: white
+          opacity: 1
+
 </style>
